@@ -7,6 +7,18 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
 }
+@media screen and (max-width: 1115px) {
+  .title-image {
+    position: static !important;
+    transform: rotate(0) !important;
+  }
+.meet {
+    text-align: center;
+  }
+#title {
+      text-align: center;
+  }
+}
 #title {
   background-color: #ff4c68;
 }
@@ -19,6 +31,13 @@ h2 {
   background-color: #ef8172;
   padding: 3% 0% 7%;
   text-align: center;
+}
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+.pricing-col {
+  padding: 3% 2%;
 }
 .carousel-item {
   padding: 7% 15%;
@@ -35,6 +54,8 @@ h2 {
 .title-image {
   transform: rotate(22.5deg);
   width: 60%;
+  position: relative;
+  left: 120px;
 }
 .navbar-brand{
   font-family: "Ubuntu";
@@ -71,6 +92,7 @@ p {
 }
 #features {
   margin: 7% 15%;
+  background-color: #ffffff;
 }
 .feature-box{
   text-align: center;
